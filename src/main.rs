@@ -47,6 +47,23 @@ fn setup(
         ..default()
     });
 
+    // instructions
+    commands.spawn(
+        TextBundle::from_section(
+            "Use arrow keys to move object",
+            TextStyle {
+                font_size: 22.0,
+                ..default()
+            },
+        )
+            .with_style(Style {
+                position_type: PositionType::Absolute,
+                top: Val::Px(12.0),
+                left: Val::Px(12.0),
+                ..default()
+            }),
+    );
+
 }
 
 fn movement(

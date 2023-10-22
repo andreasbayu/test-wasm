@@ -1,4 +1,4 @@
-## Test wasm dengan bevy
+## Test wasm + bevy
 
 ### Running locally
 
