@@ -7,7 +7,3 @@ edition = "2021"
 
 [dependencies]
 bevy = "0.11.3"
-smooth-bevy-cameras = "0.9.0"
-
-[target.wasm32-unknown-unknown]
-runner = "wasm-server-runner"

@@ -488,6 +488,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "bevy_flycam"
+version = "0.11.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "772406c17c1e0f595497a093adb7a1879ac10e444d8cc592ea54f1ab5168efb0"
+dependencies = [
+ "bevy",
+]
+
+[[package]]
 name = "bevy_gilrs"
 version = "0.11.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2839,16 +2848,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "smooth-bevy-cameras"
-version = "0.9.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "555d8849194527d0634400959632e3427249244c98811209fa6428a3fa63fd74"
-dependencies = [
- "approx",
- "bevy",
-]
-
-[[package]]
 name = "spirv"
 version = "0.2.0+1.5.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2932,7 +2931,7 @@ name = "test-wasm"
 version = "0.1.0"
 dependencies = [
  "bevy",
- "smooth-bevy-cameras",
+ "bevy_flycam",
 ]
 
 [[package]]
